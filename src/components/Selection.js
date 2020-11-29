@@ -8,7 +8,7 @@ const Selection = (props) => {
  //       <Selection key={key} applyColor={applyColor} />
    }
     return (
-  <div onClick={props.applyColor} key={props.key} className="fix-box" style={{background:''}}>
+  <div onClick={props.applyColor} className="fix-box" style={{background:''}}>
    <h2 className="subheading">Selection</h2>
   </div>
   )
